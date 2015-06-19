@@ -20,12 +20,15 @@ The codebook explains all the variables in the UCI HAR Dataset. All of the vaira
 ## Tidy Data Set
 The tidy data set is the resulting data frame that is created in run_analysis.R.
 
+## README
+Explains how all of the scripts work and how they are connected.
+
 ## Steps to add files to remote Repository
-1. Create a Getting-and-Cleaning-Data-Course-Project repository on github
-2. Clone the repository onto local computer, so you can access the files in the repository
-3. On Git Bash, go into local forked repository.
-4. Place files in local repository
-5.Push files to remote Repository
+1. Create a Getting-and-Cleaning-Data-Course-Project repository on github.
+2. Clone the repository onto local computer, so you can access the files in the repository.
+3. Save README.md, CodeBook.md, run_analysis.R, and tidydata.txt files in the local repository.
+4. On Git Bash, go into local forked repository.
+5. Push files to remote Repository
 
 ## Repository
 This is the link to the repository containing run_analysis.R, CodeBook.md, README.md, and tidydata.txt :
