@@ -16,7 +16,7 @@ Xtrain <- read.table("./UCI HAR Dataset/train/X_train.txt")
 ytrain <- read.table("./UCI HAR Dataset/train/y_train.txt")
 subjecttrain <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 names(Xtrain) <- features
-Xtrain = Xtrain[,extractfeatures]
+Xtrain <- Xtrain[,extractfeatures]
 ytrain[,2] <- activitylabels[ytrain[,1]]
 names(ytrain) <- c("Activity_ID", "Activity_Label")
 names(subjecttrain) <- "subject"
